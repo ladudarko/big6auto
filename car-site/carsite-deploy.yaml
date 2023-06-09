@@ -15,4 +15,4 @@ spec:
     spec:
       containers:
         - name: car-site
-          image: ladudarko/car-site:2.0
+          image: ladudarko/car-site:3.0
