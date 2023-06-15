@@ -8,6 +8,7 @@ spec:
   selector:
     app.kubernetes.io/name: car-site-server
   ports:
-  - protocol: TCP
+  - name: http
+    protocol: TCP
     port: 80
     targetPort: 80
