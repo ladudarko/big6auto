@@ -4,7 +4,7 @@ metadata:
   name: carsite-service
   namespace: car-site
 spec:
-  type: NodePort
+  type: LoadBalancer
   selector:
     app.kubernetes.io/name: car-site-server
   ports:
