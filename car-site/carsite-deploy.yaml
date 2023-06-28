@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: car-site
+  name: car-site-server
   namespace: car-site
 spec:
   replicas: 2
