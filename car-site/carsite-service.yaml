@@ -3,6 +3,8 @@ kind: Service
 metadata:
   name: carsite-service
   namespace: car-site
+  labels:
+    app: car-site-server
 spec:
   type: LoadBalancer
   selector:
