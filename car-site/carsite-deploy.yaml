@@ -16,3 +16,5 @@ spec:
       containers:
         - name: car-site
           image: ladudarko/car-site:3.0
+      ports:
+        - containerPort: 8080

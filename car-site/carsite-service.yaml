@@ -6,11 +6,14 @@ metadata:
   labels:
     app: car-site-server
 spec:
-  type: LoadBalancer
   selector:
     app.kubernetes.io/name: car-site-server
   ports:
   - name: http
     protocol: TCP
     port: 80
-    targetPort: 80
+    targetPort: 8080
+  - name: https
+    port: 443
+    protocol: TCP
+    targetPort: 8080
